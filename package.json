@@ -1,0 +1,17 @@
+{
+  "name": "etsy-message-bot",
+  "version": "1.0.0",
+  "description": "Automated Etsy message manager using Puppeteer and OpenAI GPT-3",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "puppeteer": "^19.0.0",
+    "express": "^4.17.1",
+    "openai": "^3.0.0"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
