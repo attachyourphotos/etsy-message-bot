@@ -12,7 +12,7 @@ async function scrapeMessages() {
   const browser = await puppeteer.launch({ headless: true });
   const page = await browser.newPage();
   await page.goto('https://www.etsy.com/signin');
-  await page.type('#join_neu_email_field', 'your-email@example.com'); // Replace with your email
+  await page.type('#join_neu_email_field', 'viahaynes@gmail.com'); // Replace with your email
   await page.type('#join_neu_password_field', 'your-password'); // Replace with your password
   await page.click('.btn.btn--full-width');
   await page.waitForNavigation();
